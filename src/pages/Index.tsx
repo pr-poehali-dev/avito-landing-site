@@ -212,6 +212,15 @@ const Index = () => {
                 <Icon name="Mail" size={24} />
                 <span className="text-lg">info@naverh.ru</span>
               </div>
+              <a 
+                href="https://t.me/naverh_agency" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-white hover:text-yellow-200 transition-colors"
+              >
+                <Icon name="Send" size={24} />
+                <span className="text-lg">Telegram канал</span>
+              </a>
               <div className="flex items-center gap-3 text-white">
                 <Icon name="MapPin" size={24} />
                 <span className="text-lg">Москва</span>
